@@ -1,0 +1,158 @@
+/*div {
+  border: #FF0000 solid 1px;
+}*/
+
+.top-level {
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flag-div {
+  margin: 10px;
+  width: fit-content;
+  float: left;
+}
+
+.logo-div {
+  margin: 10px;
+  float: right;
+}
+
+.phone-text {
+  font-size: 1.05em;
+  font-family: sans-serif;
+  font-weight:bold;
+  color: #002185;
+}
+
+.email-text {
+  color: #55556B;
+}
+
+.summary-cell {
+  margin: 0px;
+  width: 33%;
+  padding-top: 30px;
+  float: left;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+.standard-text {
+  font-size: .9em;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.copyright-text {
+  font-size: .75em;
+  font-family: sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+.sub-heading {
+  font-size: 1.2em;
+  font-family: sans-serif;
+  font-weight:bold;
+  color: #002185;
+}
+
+.contact-sub-heading {
+  font-size: 1.2em;
+  font-family: sans-serif;
+  font-weight:bold;
+  color: white;
+}
+
+.reviews-box {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  color: #777777;
+}
+
+/* from https://www.html-code-generator.com/css/speech-bubble-generator */
+.speech-bubble {
+  position: relative;
+  background: #F5F5F5;
+  width: calc(100% - 25);
+  border-radius: 10px;
+  padding: 10px;
+  border: #DDDDDD solid 2px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.speech-bubble:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-style: solid;
+  border-color: #F5F5F5 transparent;
+  border-width: 20px 20px 0;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -20px;
+}
+
+.speech-bubble:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  z-index: 0;
+  border-style: solid;
+  border-color: #DDDDDD transparent;
+  border-width: 22px 22px 0;
+  bottom: -23px;
+  left: 50%;
+  margin-left: -22px;
+  display: block;
+}
+
+.reviewer-text {
+  font-size: 1em;
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+.contact-box {
+  width: 300px;
+  padding: 10px;
+  color: white;
+  background-color: #00217D;
+  font-size: 1em;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-field {
+  width: 98%
+}
+
+.asterix {
+  color: red;
+}
+
+textarea {
+  width: 98%;
+  height: 150px;
+  resize: none;
+}
